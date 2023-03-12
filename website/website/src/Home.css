@@ -1,0 +1,54 @@
+.links {
+    display: flex;
+}
+.link {
+    margin: 24px;
+    padding: 24px;
+    background: lightgoldenrodyellow;
+}
+
+.divBack {
+    position: absolute;
+    overflow: scroll;
+    background: white;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgb(62, 57, 31), rgba(255, 255, 255, 0)), url('background.png');
+  }
+  
+  .darken {
+    background-image: 
+      linear-gradient(
+        white,
+        white
+      ),
+      url(background.png);
+  }
+  
+  .textBack{
+    width: 70%;
+    height: auto;
+    overflow: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    background: linear-gradient(0deg , rgba(255,255,255, 0.8) 55%, rgba(243, 210, 157, 0.8) 77%);  
+    border-radius: 15px;
+  }
+  
+  .text{
+    padding-top: 30px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+
+  }
+
+  p{
+    text-indent: 50px;
+    
+  }

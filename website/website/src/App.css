@@ -1,0 +1,51 @@
+div {
+  font-family: 'Serif';
+}
+
+.author-name {
+  font-size: 20px;
+}
+
+.nav {
+  display: flex;
+}
+
+
+.bot-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: auto; */
+  width: 100%;
+}
+
+.nav-link {
+
+  text-decoration: none;
+  font-size: 24px;
+  color: rgb(128, 113, 0);
+  transition: 0.5s;
+  margin-right: 25px;
+}
+
+#name{
+  font-size: 24px;
+  color:black;  
+  transition: 0.5s;
+  margin-right: 25px;
+}
+
+#header { 
+  /* header location */
+  margin: 0;
+  padding: 0;
+  font-size: 8em;
+  text-align: center;
+  
+  /* header color */
+  color: transparent;
+  background-image: linear-gradient(to right, #f00, rgb(255, 187, 0));
+  animation: animate 20s linear infinite;
+  background-clip: text;
+ 
+} 
